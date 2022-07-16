@@ -1,7 +1,7 @@
 ﻿
 namespace WF_CuaHangLuuNiemBongDa.GUI
 {
-    partial class FrmDangNhap
+    partial class frmDangNhap
     {
         /// <summary>
         /// Required designer variable.
@@ -43,6 +43,7 @@ namespace WF_CuaHangLuuNiemBongDa.GUI
             this.btnDangNhap.TabIndex = 0;
             this.btnDangNhap.Text = "Đăng Nhập";
             this.btnDangNhap.UseVisualStyleBackColor = true;
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // btnThoat
             // 
@@ -52,6 +53,7 @@ namespace WF_CuaHangLuuNiemBongDa.GUI
             this.btnThoat.TabIndex = 1;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // txtTaiKhoan
             // 
@@ -69,7 +71,7 @@ namespace WF_CuaHangLuuNiemBongDa.GUI
             this.txtMatKhau.Size = new System.Drawing.Size(167, 40);
             this.txtMatKhau.TabIndex = 3;
             // 
-            // FrmDangNhap
+            // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -78,8 +80,10 @@ namespace WF_CuaHangLuuNiemBongDa.GUI
             this.Controls.Add(this.txtTaiKhoan);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnDangNhap);
-            this.Name = "FrmDangNhap";
+            this.Name = "frmDangNhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmDangNhap";
+            this.Load += new System.EventHandler(this.frmDangNhap_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

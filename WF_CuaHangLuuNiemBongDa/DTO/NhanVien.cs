@@ -8,42 +8,24 @@ namespace WF_CuaHangLuuNiemBongDa.DTO
 {
     class NhanVien
     {
-        private string manhanvien;
-        private string hoten;
-        private string diachi;
-        private string sodienthoai;
-        private string gioitinh;
-        private string tendangnhap;
-        private string matkhau;
-        private string trangthai;
-        private string maquyen;
+        static string manhanvien;
+        static string hoten;
+        static string diachi;
+        static string sodienthoai;
+        static string gioitinh;
+        static string tendangnhap;
+        static string matkhau;
+        static string trangthai;
+        static string maquyen;
 
-        public string Manhanvien { get => manhanvien; set => manhanvien = value; }
-        public string Hoten { get => hoten; set => hoten = value; }
-        public string Diachi { get => diachi; set => diachi = value; }
-        public string Sodienthoai { get => sodienthoai; set => sodienthoai = value; }
-        public string Gioitinh { get => gioitinh; set => gioitinh = value; }
-        public string Tendangnhap { get => tendangnhap; set => tendangnhap = value; }
-        public string Matkhau { get => matkhau; set => matkhau = value; }
-        public string Trangthai { get => trangthai; set => trangthai = value; }
-        public string Maquyen { get => maquyen; set => maquyen = value; }
-
-        public NhanVien()
-        {
-
-        }
-
-        public NhanVien(string manhanvien, string hoten, string diachi, string sodienthoai, string gioitinh, string tendangnhap, string matkhau, string trangthai, string maquyen)
-        {
-            this.manhanvien = manhanvien;
-            this.hoten = hoten;
-            this.diachi = diachi;
-            this.sodienthoai = sodienthoai;
-            this.gioitinh = gioitinh;
-            this.tendangnhap = tendangnhap;
-            this.matkhau = matkhau;
-            this.trangthai = trangthai;
-            this.maquyen = maquyen;
-        }
+        public static string Manhanvien { get => manhanvien; set => manhanvien = value; }
+        public static string Hoten { get => hoten; set => hoten = value; }
+        public static string Diachi { get => diachi; set => diachi = value; }
+        public static string Sodienthoai { get => sodienthoai; set => sodienthoai = value; }
+        public static string Gioitinh { get => gioitinh; set => gioitinh = value; }
+        public static string Tendangnhap { get => tendangnhap; set => tendangnhap = value; }
+        public static string Matkhau { get => matkhau; set => matkhau = value; }
+        public static string Trangthai { get => trangthai; set => trangthai = value; }
+        public static string Maquyen { get => maquyen; set => maquyen = value; }
     }
 }
